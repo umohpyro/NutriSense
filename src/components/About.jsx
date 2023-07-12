@@ -22,8 +22,8 @@ const About = () => {
 				</Link>
 				<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
 					{`
-          NutriSense was inspired by a personal need for quick and healthy meal ideas. As busy professionals with busy schedules, we found it difficult to consistently make nutritious meals for ourselves and our families. We wanted a solution that was convenient, accessible, and tailored to our specific dietary needs and preferences.
-This project was developed as a Portfolio Project for ALX SE Program, as part of our training to become full-stack software engineers. I am proud to have developed a solution that addresses a common problem for many people, and I hope that this chatbot will help others eat healthier and save time in the kitchen.
+          NutriSense was inspired by a personal need for quick and healthy meal ideas. As busy professionals with busy schedules, we found it difficult to consistently make nutritious meals for ourselves and our families. We wanted a solution that was convenient, accessible, and tailored to our specific dietary needs and preferences. <br/>
+This project was developed as a Portfolio Project for ALX SE Program, as part of our training to become full-stack software engineers. We are proud to have developed a solution that addresses a common problem for many people, and We hope that this chatbot will help others eat healthier and save time in the kitchen.
 
           `}
 				</p>
