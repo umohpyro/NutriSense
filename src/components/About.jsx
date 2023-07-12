@@ -5,13 +5,13 @@ import Image from 'next/image';
 const About = () => {
 	return (
 		<div className=' bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
-			<div className='relative w-full'>
+			<div className='w-full relative'>
 				<Image
 					className='rounded-t-lg'
 					src='/about.jpg'
 					alt='About'
 					fill
-					style={{ width: '100%' }}
+					sizes='100vw'
 				/>
 			</div>
 			<div className='p-5'>
@@ -22,15 +22,27 @@ const About = () => {
 				</Link>
 				<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
 					{`
-          NutriSense was inspired by a personal need for quick and healthy meal ideas. As busy professionals with busy schedules, we found it difficult to consistently make nutritious meals for ourselves and our families. We wanted a solution that was convenient, accessible, and tailored to our specific dietary needs and preferences. <br/>
-This project was developed as a Portfolio Project for ALX SE Program, as part of our training to become full-stack software engineers. We are proud to have developed a solution that addresses a common problem for many people, and We hope that this chatbot will help others eat healthier and save time in the kitchen.
+          NutriSense was inspired by a personal need for quick and healthy meal ideas. As busy professionals with busy schedules, we found it difficult to consistently make nutritious meals for ourselves and our families. We wanted a solution that was convenient, accessible, and tailored to our specific dietary needs and preferences. We also wanted to be able to use ingredients that we already had in our kitchen, without having to go to the grocery store. `}
+				</p>
+				<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+					{`
+		  We decided to build a chatbot that would help us find recipes that fit our needs and preferences, and that would also suggest recipes based on the ingredients we already had in our kitchen. We named our chatbot NutriSense, because it helps us make sense of our nutrition and make healthier choices.`}
+				</p>
 
-          `}
+				<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+					{`	NutriSense is a smart recipe suggester that uses the ChatGPT API to generate recipes based on the user's dietary needs and preferences. The user can also provide a list of ingredients that they have in their kitchen, and NutriSense will suggest recipes that can be made with those ingredients. The user can also ask NutriSense for recipes that fit a specific diet, such as vegan, vegetarian, keto, or paleo.`}
+				</p>
+
+				<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+					{`NutriSense will then generate a recipe that fits the user's needs and preferences. NutriSense can also suggest recipes based on the user's mood, such as happy, sad, or tired. NutriSense will then generate a recipe that fits the user's mood. NutriSense can also suggest recipes based on the user's location, such as home, work, or school. NutriSense will then generate a recipe that fits the user's location. NutriSense can also suggest recipes based on the user's mood, such as happy, sad, or tired. NutriSense will then generate a recipe that fits the user's mood.`}
+				</p>
+				<p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+					{`This project was developed as a Portfolio Project for ALX SE Program, as part of our training to become full-stack software engineers. We are proud to have developed a solution that addresses a common problem for many people, and We hope that this chatbot will help others eat healthier and save time in the kitchen.`}
 				</p>
 				<Link
-					href='https://medium.com/@umohpyro/the-pidgin-recipe-assistant-building-a-smart-recipe-suggester-with-chatgpt-api-dd1739eeaf3'
+					href='https://github.com/umohpyro/NutriSense'
 					className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
-					Read more
+					Check out the project on Github
 					<svg
 						aria-hidden='true'
 						className='w-4 h-4 ml-2 -mr-1'
