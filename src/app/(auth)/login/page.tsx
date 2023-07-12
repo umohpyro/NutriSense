@@ -1,5 +1,5 @@
 //import LoginPage from '@/components/customLogin/Login'
-import { Form } from '@/components/customLogin/form'
+//import { Form } from '@/components/customLogin/form'
 import Icons from '@/components/Icons'
 import { buttonVariants } from '@/components/ui/Button'
 import LargeHeading from '@/components/ui/LargeHeading'
@@ -26,7 +26,6 @@ const page: FC = () => {
 
             <LargeHeading>Welcome back!</LargeHeading>
             {/* <Paragraph>Please sign in using your Email & Password.</Paragraph> */}
-            <Form />
             {/* <Paragraph>or</Paragraph> */}
           </div>
           <UserAuthForm />
