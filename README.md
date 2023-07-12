@@ -6,9 +6,9 @@ Nutrisense - Your friendly intelligent pidgin diet assistant
 
 ## Introduction
 
-An AI project that utilizes the ChatGPT API but fully customized to only respond to health and diet related prompts. nutrisense is a web application that generates personalized diet plans based on user preferences and dietary restrictions. It uses the GPT-3 language model to generate meal plans and recipes that meet the user's needs. The application is built with Next.js, Tailwind CSS, OpenAI, NextAuth and Prisma ORM.
+An AI project that utilizes the ChatGPT API but is fully customized to only respond to health and diet-related prompts. NutriSense is a web application that generates personalized diet plans based on user preferences and dietary restrictions. It uses the GPT-3 language model to generate meal plans and recipes that meet users' needs. The application is built with Next.js, Tailwind CSS, OpenAI, NextAuth and Prisma ORM.
 
-nutrisense was inspired by a personal need for quick and healthy meal ideas. As busy professionals with busy schedules, we found it difficult to consistently make nutritious meals for ourselves and our families. We wanted a solution that was convenient, accessible, and tailored to our specific dietary needs and preferences. This project was developed as a Portfolio Project for ALX SE Program, as part of our training to become full-stack software engineers. I am proud to have developed a solution that addresses a common problem for many people, and I hope that this chatbot will help others eat healthier and save time in the kitchen.
+NutriSense was inspired by a personal need for quick and healthy meal ideas. As busy professionals with busy schedules, we found it difficult to consistently make nutritious meals for ourselves and our families. We wanted a solution that was convenient, accessible, and tailored to our specific dietary needs and preferences. This project was developed as a Portfolio Project for ALX SE Program, as part of our training to become full-stack software engineers. We are proud to have developed a solution that addresses a common problem for many people, and We hope this chatbot will help others eat healthier and save time in the kitchen.
 
 ## Installation
 
@@ -77,6 +77,11 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Click on signIn to open the page below
+<img src="SignInPage.PNG" width="100%"/>
+
+Now log in using either Github or Google.
+
 ## Usage
 
 -   Create an account or log in with an existing account
@@ -115,7 +120,7 @@ git push origin feature/<feature-name>
 
 -   Rate Limited API routes
 -   Protection of sensitive routes
--   Google authentication
+-   Google Authentication
 -   Typescript
 -   A complete API key system to create & revoke user keys
 
@@ -136,7 +141,7 @@ ChatGPT
 
 ## Feedback
 
-If you have any feedback, please reach out to me at andemumoh@gmail.com
+If you have any feedback, please reach out to me at andemumoh@gmail.com or my partner at mercynyong@gmail.com
 
 ## License
 
