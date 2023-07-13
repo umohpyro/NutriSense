@@ -135,6 +135,10 @@ git push origin feature/<feature-name>
 -   Conditional classes with clsx
 -   Variants with class-variance-authority
 
+## Authors
+Umoh Andem (andemumoh@gmail.com)
+Nyong Mercy (nyongmercy@gmail.com)
+
 ## Related Projects
 
 ChatGPT
